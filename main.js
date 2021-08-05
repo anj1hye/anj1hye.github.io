@@ -55,7 +55,7 @@ $(function(){
     
     //typing txt intro
     var options = {
-      strings: ['An jihye 2021 portfolio'],
+      strings: ['고양이 귀여워'],
       typeSpeed: 100
     };
     

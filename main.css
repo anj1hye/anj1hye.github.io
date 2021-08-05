@@ -66,15 +66,15 @@ nav ul li.on a:after {transform:translateX(-20px);background:#f00;}
 .section .visual_slider figure {padding:0 25px;}
 .section .visual_slider img {width:100%;border-radius:50%;}
 
-.section .slider_arrows i {position:absolute;top:50%;left:50%;font-size:300px;color:rgba(158, 119, 247, 0.596);z-index:2;}
+.section .slider_arrows i {position:absolute;top:50%;left:50%;font-size:30px;color:rgba(137, 136, 138, 0.596);z-index:2;}
 
 .section .slider_arrows i.right {margin-left:600px;transform:translate(-50%,-50%) rotate(45deg)}
 .section .slider_arrows i.left {margin-left:-600px;transform:translate(-50%,-50%) rotate(-135deg)}
 
 .section .visual_slider .slick-dots {display:flex;justify-content:center;}
-.section .visual_slider .slick-dots li {width:15px;height:15px;background:rgba(255,0,0,0.5);border-radius:50%;margin:20px 4px;}
+.section .visual_slider .slick-dots li {width:15px;height:15px;background:rgba(240, 179, 13, 0.5);border-radius: 30px;margin:20px 4px;}
 .section .visual_slider .slick-dots button {display:none;}
-.section .visual_slider .slick-dots li.slick-active {background:rgba(255,255,0,0.5)}
+.section .visual_slider .slick-dots li.slick-active {background:rgba(207, 207, 207, 0.5)}
 
 
 .info {background:#444 url(./bg0.png);}
