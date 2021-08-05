@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap');
 
 
-body {color:#fff;}
+body {color:#333;}
 header h1 {position:fixed;top:50px;left:50px;z-index:999;}
 header .mopen {position:fixed;top:50px;right:50px;font-size:24px;z-index:1000;}
 
@@ -24,9 +24,9 @@ nav ul li.on a:after {transform:translateX(-20px);background:#f00;}
 .intro .intro_slogan h2 {font-size:60px;font-family: 'WindSong', cursive;text-shadow:1px 1px 0 #333;margin-bottom:30px;}
 .intro .intro_slogan p {font-size:18px;font-weight:100;text-shadow:1px 1px 0 #333;}
 
-
-.section {background:#333 url(./bg02.png);}
-.section:nth-child(odd) {background:#444 url(./bg02.png);}
+/* 
+.section {background:#333 url(./bg03.png);} */
+.section:nth-child(odd) {background:#f2f2f2}
 .section .container {display:flex;width:1300px;margin:0 auto;}
 .section .container>* {flex:1;padding:0 25px;}
 .section .container video {width:100%;}
@@ -121,7 +121,7 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
 
 
         header .mopen:after {content: "\e91c";font-family: xeicon!important;}
-        header .mopen.on:after {content: "\e921";color:#f2f2f2;}
+        header .mopen.on:after {content: "\e921";color:#333;}
 
         nav {display:none;position:fixed;top:50%;right:30px;transform:translateY(-50%);z-index:999;}
         nav ul {width:50px;}
@@ -140,9 +140,9 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
             margin-bottom:30px;}
         .intro .intro_slogan p {font-size:14px;font-weight:100;text-shadow:1px 1px 0 #333;line-height: 1.6;}
 
-
-        .section {background:#fff url(./bg02.png);}
-        .section:nth-child(odd) {background:#444 url(./bg02.png);}
+/* 
+        .section {background:#fff url(./bg03.png);} */
+        .section:nth-child(odd) {background:#f2f2f2 url(./bg03.png);}
         .section .container {display:flex;flex-direction:column;width: auto;margin:0 auto;}
         .section .container>* {flex:1;padding:15px 25px;}
         .section .container video {width:100%;}
@@ -167,7 +167,8 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
         .section .txt .font li {margin-right:20px;}
 
         .section .video_case {background:url(./video_case.png) no-repeat;padding:0;position:relative;}
-        .section .video_case video {border-radius:0}
+        .section .video_case video {border-radius:0;border:3px solid #ddd}
+        .section .video_case iframe {width:100%; height: 200px;}
         .section .video_case {border-radius:0;border:3px solid #ddd}
         .section .video_case:before {content:"";display:block;width:40px;height:40px;border-radius:50%;
             background:rgba(255,0,0,0.5);position:absolute;bottom:-10px;right:-10px;top:auto;left: auto;}
@@ -175,7 +176,7 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
             background:rgba(255,255,0,0.5);position:absolute;top:-30px;left:-30px;}
 
 
-        .section .web {display:block;border:2px dotted rgba(255,255,255,0.3);padding:0;border-radius:0}
+        .section .web {display:block;border:2px dotted rgba(255,255,255,0.3);padding:0;border-radius:0;border:3px solid #ddd}
         .section .web_case {height:200px;overflow:hidden;}
         .section .web_case img {width:100%;position:relative;transition:2s;}
         .section .web_case:hover img {transform:translateY(0);}
@@ -190,7 +191,7 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
         .section .visual_slider figure {padding:0 25px;}
         .section .visual_slider img {width:100%;border-radius:50%;}
 
-        .section .slider_arrows i {position:absolute;top:50%;left:50%;font-size:50px;color:rgba(158, 119, 247, 0.596);z-index:4;}
+        .section .slider_arrows i {position:absolute;top:50%;left:auto;font-size:50px;color:rgba(158, 119, 247, 0.596);z-index:4;}
 
         .section .slider_arrows i.right {margin-left:600px;transform:translate(-50%,-50%) rotate(45deg);left:30px;right:30px}
         .section .slider_arrows i.left {margin-left:-600px;transform:translate(-50%,0) rotate(-135deg);left: 30px;}
@@ -216,7 +217,6 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
 
         .cover .container {display:flex;flex-direction: column;color:#333;width:100%;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
         .cover .container>* {flex:1;padding:0 25px;}
-
         .cover .info_case img {width:70%;filter:invert();border-radius:50%;}
 
         .cover h2 {font-size:30px;font-family: 'WindSong', cursive;padding:0 0 0 0;margin-bottom:18px;}
