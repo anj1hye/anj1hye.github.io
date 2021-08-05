@@ -197,12 +197,9 @@ footer .to_top {position:fixed;bottom:50px;right:50px;font-size:24px;z-index:999
         .section .slider_arrows i.left {margin-left:-600px;transform:translate(-50%,0) rotate(-135deg);left: 30px;}
 
         .section .visual_slider .slick-dots {display:flex;justify-content:center;}
-        .section .visual_slider .slick-dots li {width:15px;height:15px;background:rgba(255,0,0,0.5);border-radius:50%;margin:20px 4px;}
+        .section .visual_slider .slick-dots li {width:15px;height:15px;background:rgba(240, 179, 13, 0.5);border-radius:50%;margin:20px 4px;}
         .section .visual_slider .slick-dots button {display:none;}
-        .section .visual_slider .slick-dots li.slick-active {background:rgba(255,255,0,0.5)}
-
-
-        .info {background:#444 url(./bg0.png);padding:30px 0;}
+        .section .visual_slider .slick-dots li.slick-active {background:rgba(207, 207, 207, 0.5)}
 
         .section .info_case {padding:30px 0;margin-left:auto;width:150px;}
         .section .info_case img {width:100%;border-radius:50%;box-shadow:0 0 5px #333;}
