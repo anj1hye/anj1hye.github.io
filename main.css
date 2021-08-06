@@ -24,8 +24,8 @@ nav ul li.on a:after {transform:translateX(-20px);background:#f00;}
 .intro .intro_slogan h2 {font-size:60px;font-family: 'WindSong', cursive;text-shadow:1px 1px 0 #333;margin-bottom:30px;}
 .intro .intro_slogan p {font-size:18px;font-weight:100;text-shadow:1px 1px 0 #333;}
 
-/* 
-.section {background:#333 url(./bg03.png);} */
+
+.section {background: url(./bg0.png);}
 .section:nth-child(odd) {background:#f2f2f2}
 .section .container {display:flex;width:1300px;margin:0 auto;}
 .section .container>* {flex:1;padding:0 25px;}
@@ -66,10 +66,12 @@ nav ul li.on a:after {transform:translateX(-20px);background:#f00;}
 .section .visual_slider figure {padding:0 25px;}
 .section .visual_slider img {width:100%;border-radius:50%;}
 
-.section .slider_arrows i {position:absolute;top:50%;left:50%;font-size:30px;color:rgba(137, 136, 138, 0.596);z-index:2;}
+.section .slider_arrows i {position:absolute;top:50%;left:50%;font-size:300px;color:rgba(137, 136, 138, 0.596);z-index:2;}
 
 .section .slider_arrows i.right {margin-left:600px;transform:translate(-50%,-50%) rotate(45deg)}
 .section .slider_arrows i.left {margin-left:-600px;transform:translate(-50%,-50%) rotate(-135deg)}
+
+
 
 .section .visual_slider .slick-dots {display:flex;justify-content:center;}
 .section .visual_slider .slick-dots li {width:15px;height:15px;background:rgba(240, 179, 13, 0.5);border-radius: 30px;margin:20px 4px;}
